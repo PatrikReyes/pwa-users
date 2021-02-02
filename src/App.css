@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.navbar a {
+  color: white;
+
+}
+
+.navbar a:hover {
+  color: #ddd;
+  text-decoration: none;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
