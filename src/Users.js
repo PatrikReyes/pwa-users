@@ -3,7 +3,7 @@ import { Table, Alert } from "react-bootstrap";
 export default function Users() {
   const [state, setState] = useState([]);
   const [online, setOnline] = useState(true);
-  const url = "http://jsonplaceholder.typicode.com/users";
+  const url = "https://jsonplaceholder.typicode.com/users";
   useEffect(() => {
     fetch(url)
       .then((data) => {
